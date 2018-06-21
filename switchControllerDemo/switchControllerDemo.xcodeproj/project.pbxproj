@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFF5CEA120C126CE008D4218 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF5CEA020C126CE008D4218 /* AppDelegate.m */; };
+		BFF5CEA720C126CE008D4218 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF5CEA520C126CE008D4218 /* Main.storyboard */; };
+		BFF5CEA920C126CE008D4218 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF5CEA820C126CE008D4218 /* Assets.xcassets */; };
+		BFF5CEAC20C126CE008D4218 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF5CEAA20C126CE008D4218 /* LaunchScreen.storyboard */; };
+		BFF5CEAF20C126CE008D4218 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF5CEAE20C126CE008D4218 /* main.m */; };
+		BFF5CEB920C126CE008D4218 /* switchControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF5CEB820C126CE008D4218 /* switchControllerDemoTests.m */; };
+		BFF5CEC420C126CE008D4218 /* switchControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF5CEC320C126CE008D4218 /* switchControllerDemoUITests.m */; };
+		BFF5CED620C12702008D4218 /* secondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF5CED520C12702008D4218 /* secondTableViewController.m */; };
+		BFF5CED920C4C7A2008D4218 /* switchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF5CED820C4C7A2008D4218 /* switchViewController.m */; };
+		BFF5CEE220C4DB6F008D4218 /* firstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF5CEE020C4DB6F008D4218 /* firstTableViewController.m */; };
+		BFF5CEE520C53FC3008D4218 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF5CEE420C53FC3008D4218 /* ViewController.m */; };
+		BFF5CEE820C619CC008D4218 /* firstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF5CEE720C619CC008D4218 /* firstViewController.m */; };
+		BFF5CEEB20C637A0008D4218 /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF5CEEA20C637A0008D4218 /* secondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFF5CEB520C126CE008D4218 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFF5CE9420C126CE008D4218 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFF5CE9B20C126CE008D4218;
+			remoteInfo = switchControllerDemo;
+		};
+		BFF5CEC020C126CE008D4218 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFF5CE9420C126CE008D4218 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFF5CE9B20C126CE008D4218;
+			remoteInfo = switchControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFF5CE9C20C126CE008D4218 /* switchControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = switchControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF5CE9F20C126CE008D4218 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFF5CEA020C126CE008D4218 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFF5CEA620C126CE008D4218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFF5CEA820C126CE008D4218 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFF5CEAB20C126CE008D4218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFF5CEAD20C126CE008D4218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFF5CEAE20C126CE008D4218 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFF5CEB420C126CE008D4218 /* switchControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = switchControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF5CEB820C126CE008D4218 /* switchControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = switchControllerDemoTests.m; sourceTree = "<group>"; };
+		BFF5CEBA20C126CE008D4218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFF5CEBF20C126CE008D4218 /* switchControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = switchControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF5CEC320C126CE008D4218 /* switchControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = switchControllerDemoUITests.m; sourceTree = "<group>"; };
+		BFF5CEC520C126CE008D4218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFF5CED420C12702008D4218 /* secondTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secondTableViewController.h; sourceTree = "<group>"; };
+		BFF5CED520C12702008D4218 /* secondTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = secondTableViewController.m; sourceTree = "<group>"; };
+		BFF5CED720C4C7A2008D4218 /* switchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = switchViewController.h; sourceTree = "<group>"; };
+		BFF5CED820C4C7A2008D4218 /* switchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = switchViewController.m; sourceTree = "<group>"; };
+		BFF5CEE020C4DB6F008D4218 /* firstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = firstTableViewController.m; sourceTree = "<group>"; };
+		BFF5CEE120C4DB6F008D4218 /* firstTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = firstTableViewController.h; sourceTree = "<group>"; };
+		BFF5CEE320C53FC3008D4218 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BFF5CEE420C53FC3008D4218 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BFF5CEE620C619CC008D4218 /* firstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = firstViewController.h; sourceTree = "<group>"; };
+		BFF5CEE720C619CC008D4218 /* firstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firstViewController.m; sourceTree = "<group>"; };
+		BFF5CEE920C637A0008D4218 /* secondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
+		BFF5CEEA20C637A0008D4218 /* secondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFF5CE9920C126CE008D4218 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF5CEB120C126CE008D4218 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF5CEBC20C126CE008D4218 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFF5CE9320C126CE008D4218 = {
+			isa = PBXGroup;
+			children = (
+				BFF5CE9E20C126CE008D4218 /* switchControllerDemo */,
+				BFF5CEB720C126CE008D4218 /* switchControllerDemoTests */,
+				BFF5CEC220C126CE008D4218 /* switchControllerDemoUITests */,
+				BFF5CE9D20C126CE008D4218 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFF5CE9D20C126CE008D4218 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFF5CE9C20C126CE008D4218 /* switchControllerDemo.app */,
+				BFF5CEB420C126CE008D4218 /* switchControllerDemoTests.xctest */,
+				BFF5CEBF20C126CE008D4218 /* switchControllerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFF5CE9E20C126CE008D4218 /* switchControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BFF5CE9F20C126CE008D4218 /* AppDelegate.h */,
+				BFF5CEA020C126CE008D4218 /* AppDelegate.m */,
+				BFF5CED720C4C7A2008D4218 /* switchViewController.h */,
+				BFF5CED820C4C7A2008D4218 /* switchViewController.m */,
+				BFF5CEA520C126CE008D4218 /* Main.storyboard */,
+				BFF5CEA820C126CE008D4218 /* Assets.xcassets */,
+				BFF5CEAA20C126CE008D4218 /* LaunchScreen.storyboard */,
+				BFF5CEAD20C126CE008D4218 /* Info.plist */,
+				BFF5CEAE20C126CE008D4218 /* main.m */,
+				BFF5CEE120C4DB6F008D4218 /* firstTableViewController.h */,
+				BFF5CEE020C4DB6F008D4218 /* firstTableViewController.m */,
+				BFF5CED420C12702008D4218 /* secondTableViewController.h */,
+				BFF5CED520C12702008D4218 /* secondTableViewController.m */,
+				BFF5CEE620C619CC008D4218 /* firstViewController.h */,
+				BFF5CEE720C619CC008D4218 /* firstViewController.m */,
+				BFF5CEE920C637A0008D4218 /* secondViewController.h */,
+				BFF5CEEA20C637A0008D4218 /* secondViewController.m */,
+				BFF5CEE320C53FC3008D4218 /* ViewController.h */,
+				BFF5CEE420C53FC3008D4218 /* ViewController.m */,
+			);
+			path = switchControllerDemo;
+			sourceTree = "<group>";
+		};
+		BFF5CEB720C126CE008D4218 /* switchControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFF5CEB820C126CE008D4218 /* switchControllerDemoTests.m */,
+				BFF5CEBA20C126CE008D4218 /* Info.plist */,
+			);
+			path = switchControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		BFF5CEC220C126CE008D4218 /* switchControllerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFF5CEC320C126CE008D4218 /* switchControllerDemoUITests.m */,
+				BFF5CEC520C126CE008D4218 /* Info.plist */,
+			);
+			path = switchControllerDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFF5CE9B20C126CE008D4218 /* switchControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF5CEC820C126CE008D4218 /* Build configuration list for PBXNativeTarget "switchControllerDemo" */;
+			buildPhases = (
+				BFF5CE9820C126CE008D4218 /* Sources */,
+				BFF5CE9920C126CE008D4218 /* Frameworks */,
+				BFF5CE9A20C126CE008D4218 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = switchControllerDemo;
+			productName = switchControllerDemo;
+			productReference = BFF5CE9C20C126CE008D4218 /* switchControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFF5CEB320C126CE008D4218 /* switchControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF5CECB20C126CE008D4218 /* Build configuration list for PBXNativeTarget "switchControllerDemoTests" */;
+			buildPhases = (
+				BFF5CEB020C126CE008D4218 /* Sources */,
+				BFF5CEB120C126CE008D4218 /* Frameworks */,
+				BFF5CEB220C126CE008D4218 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFF5CEB620C126CE008D4218 /* PBXTargetDependency */,
+			);
+			name = switchControllerDemoTests;
+			productName = switchControllerDemoTests;
+			productReference = BFF5CEB420C126CE008D4218 /* switchControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFF5CEBE20C126CE008D4218 /* switchControllerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF5CECE20C126CE008D4218 /* Build configuration list for PBXNativeTarget "switchControllerDemoUITests" */;
+			buildPhases = (
+				BFF5CEBB20C126CE008D4218 /* Sources */,
+				BFF5CEBC20C126CE008D4218 /* Frameworks */,
+				BFF5CEBD20C126CE008D4218 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFF5CEC120C126CE008D4218 /* PBXTargetDependency */,
+			);
+			name = switchControllerDemoUITests;
+			productName = switchControllerDemoUITests;
+			productReference = BFF5CEBF20C126CE008D4218 /* switchControllerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFF5CE9420C126CE008D4218 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = linlinwang;
+				TargetAttributes = {
+					BFF5CE9B20C126CE008D4218 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					BFF5CEB320C126CE008D4218 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BFF5CE9B20C126CE008D4218;
+					};
+					BFF5CEBE20C126CE008D4218 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BFF5CE9B20C126CE008D4218;
+					};
+				};
+			};
+			buildConfigurationList = BFF5CE9720C126CE008D4218 /* Build configuration list for PBXProject "switchControllerDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFF5CE9320C126CE008D4218;
+			productRefGroup = BFF5CE9D20C126CE008D4218 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFF5CE9B20C126CE008D4218 /* switchControllerDemo */,
+				BFF5CEB320C126CE008D4218 /* switchControllerDemoTests */,
+				BFF5CEBE20C126CE008D4218 /* switchControllerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFF5CE9A20C126CE008D4218 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF5CEAC20C126CE008D4218 /* LaunchScreen.storyboard in Resources */,
+				BFF5CEA920C126CE008D4218 /* Assets.xcassets in Resources */,
+				BFF5CEA720C126CE008D4218 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF5CEB220C126CE008D4218 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF5CEBD20C126CE008D4218 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFF5CE9820C126CE008D4218 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF5CEE520C53FC3008D4218 /* ViewController.m in Sources */,
+				BFF5CEE220C4DB6F008D4218 /* firstTableViewController.m in Sources */,
+				BFF5CED620C12702008D4218 /* secondTableViewController.m in Sources */,
+				BFF5CEE820C619CC008D4218 /* firstViewController.m in Sources */,
+				BFF5CEEB20C637A0008D4218 /* secondViewController.m in Sources */,
+				BFF5CEAF20C126CE008D4218 /* main.m in Sources */,
+				BFF5CED920C4C7A2008D4218 /* switchViewController.m in Sources */,
+				BFF5CEA120C126CE008D4218 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF5CEB020C126CE008D4218 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF5CEB920C126CE008D4218 /* switchControllerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF5CEBB20C126CE008D4218 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF5CEC420C126CE008D4218 /* switchControllerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFF5CEB620C126CE008D4218 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFF5CE9B20C126CE008D4218 /* switchControllerDemo */;
+			targetProxy = BFF5CEB520C126CE008D4218 /* PBXContainerItemProxy */;
+		};
+		BFF5CEC120C126CE008D4218 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFF5CE9B20C126CE008D4218 /* switchControllerDemo */;
+			targetProxy = BFF5CEC020C126CE008D4218 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFF5CEA520C126CE008D4218 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFF5CEA620C126CE008D4218 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFF5CEAA20C126CE008D4218 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFF5CEAB20C126CE008D4218 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFF5CEC620C126CE008D4218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFF5CEC720C126CE008D4218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFF5CEC920C126CE008D4218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5A6VDQMQ4A;
+				INFOPLIST_FILE = switchControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linlinwang.com.switchControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFF5CECA20C126CE008D4218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5A6VDQMQ4A;
+				INFOPLIST_FILE = switchControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linlinwang.com.switchControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFF5CECC20C126CE008D4218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = switchControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linlinwang.com.switchControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/switchControllerDemo.app/switchControllerDemo";
+			};
+			name = Debug;
+		};
+		BFF5CECD20C126CE008D4218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = switchControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linlinwang.com.switchControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/switchControllerDemo.app/switchControllerDemo";
+			};
+			name = Release;
+		};
+		BFF5CECF20C126CE008D4218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = switchControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linlinwang.com.switchControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = switchControllerDemo;
+			};
+			name = Debug;
+		};
+		BFF5CED020C126CE008D4218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = switchControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linlinwang.com.switchControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = switchControllerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFF5CE9720C126CE008D4218 /* Build configuration list for PBXProject "switchControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF5CEC620C126CE008D4218 /* Debug */,
+				BFF5CEC720C126CE008D4218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF5CEC820C126CE008D4218 /* Build configuration list for PBXNativeTarget "switchControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF5CEC920C126CE008D4218 /* Debug */,
+				BFF5CECA20C126CE008D4218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF5CECB20C126CE008D4218 /* Build configuration list for PBXNativeTarget "switchControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF5CECC20C126CE008D4218 /* Debug */,
+				BFF5CECD20C126CE008D4218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF5CECE20C126CE008D4218 /* Build configuration list for PBXNativeTarget "switchControllerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF5CECF20C126CE008D4218 /* Debug */,
+				BFF5CED020C126CE008D4218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFF5CE9420C126CE008D4218 /* Project object */;
+}
